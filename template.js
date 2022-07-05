@@ -153,6 +153,8 @@ var hasOwnProperty = objectProto.hasOwnProperty;
  * ');
  */
 function template(string, options, guard) {
+	throw new Error('Not implemented - requires new Function()');
+/*
   // Based on John Resig's `tmpl` implementation
   // (http://ejohn.org/blog/javascript-micro-templating/)
   // and Laura Doktorova's doT.js (https://github.com/olado/doT).
@@ -267,6 +269,7 @@ function template(string, options, guard) {
     throw result;
   }
   return result;
+*/
 }
 
 export default template;
